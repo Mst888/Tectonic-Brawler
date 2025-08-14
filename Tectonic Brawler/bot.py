@@ -5,6 +5,7 @@ import os
 from bot_mantik import *
 from config import TOKEN
 from discord.ext import commands
+from mem import *
 # ayricaliklar (intents) değişkeni botun ayrıcalıklarını depolayacak
 intents = discord.Intents.default()
 # Mesajları okuma ayrıcalığını etkinleştirelim
@@ -35,6 +36,16 @@ async def on_message(message):
         await message.channel.send(secret_function("hello","world"))
     elif message.content.startswith('$pass'):
         await message.channel.send(sifre_olusturucu(10))
+    elif message.content.startswith('$mem3'):
+        await message.channel.send(mem3())
+    elif message.content.startswith('$mem2'):
+        await message.channel.send(mem2())
+    elif message.content.startswith('$mem1'):
+        await message.channel.send(mem1())
+    elif message.content.startswith('$mem'):
+        await message.channel.send(mem())
+    elif message.content.startswith('$poke'):
+        await message.channel.send(poke())
     else:
         await message.channel.send("Bu komutu anlayamadım :(")
 
