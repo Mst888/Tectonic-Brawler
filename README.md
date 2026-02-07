@@ -1,262 +1,325 @@
-# Tectonic Brawler Discord Bot
+<div align="center">
 
-A production-ready Discord bot built with Python featuring member event announcements, YouTube upload notifications, AI-powered question answering using Groq, and comprehensive admin controls.
+# 🤖 Tectonic Brawler Discord Bot
 
-## Features
+### *Modern, Akıllı ve Güçlü Discord Botu*
 
-### 1. Member Join/Leave Announcements
-- Welcomes new members with customizable messages
-- Announces when members leave the server
-- Configurable announcement channels
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
+[![Discord.py](https://img.shields.io/badge/discord.py-2.4+-blue.svg)](https://github.com/Rapptz/discord.py)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
 
-### 2. YouTube Upload Notifications
-- Monitors YouTube channels for new video uploads
-- Sends automatic notifications to designated Discord channels
-- Prevents duplicate notifications
-- Checks for new videos every 10 minutes
+**AI Destekli Sohbet** • **YouTube Bildirimleri** • **Otomatik Karşılama** • **Admin Araçları**
 
-### 3. AI Question Answering (Groq-Powered)
-- Responds when mentioned (@BotName)
-- Supports `!ask` command for direct questions
-- Uses Groq API (OpenAI-compatible) for fast AI responses
-- Built-in rate limiting (5 requests per minute per user)
-- Handles long responses with automatic message chunking
+[🚀 Hızlı Başlangıç](#-hızlı-başlangıç) • [✨ Özellikler](#-özellikler) • [📖 Dokümantasyon](#-dokümantasyon) • [🎮 Komutlar](#-bot-komutları)
 
-### 4. Admin Commands
-- Configure all bot settings via Discord commands
-- Administrator-only access with permission checks
-- Persistent configuration storage
+---
 
-## Requirements
+</div>
 
-- Python 3.10 or higher
-- Discord Bot Token
-- YouTube Data API Key
-- Groq API Key
+## 🌟 Neden Tectonic Brawler?
 
-## Installation
+Tectonic Brawler, Discord sunucunuz için **yapay zeka destekli**, **tam otomatik** ve **kullanımı kolay** bir bot çözümüdür. Groq AI teknolojisi ile anlık cevaplar, YouTube entegrasyonu ile otomatik bildirimler ve kapsamlı yönetim araçları sunar.
 
-### 1. Clone or Download the Repository
+## 🚀 Hızlı Başlangıç
+
+### ⚡ En Kolay Yol: Tek EXE Dosyası!
 
 ```bash
-cd "Tectonic Brawler"
+# 1. TectonicBrawler.exe (ÖNERİLEN) ⭐
+dist\TectonicBrawler.exe
+# ✅ Tek dosya - Taşınabilir
+# ✅ Görsel arayüz
+# ✅ Otomatik kurulum
+# ✅ Tüm özellikler dahil
 ```
 
-### 2. Set Up Virtual Environment
+### 🎯 Alternatif Yöntemler
 
 ```bash
-python -m venv venv
+# 2. Python ile GUI Launcher
+python scripts\gui_launcher.py
 
-# Windows
+# 3. Basit BAT Dosyası
+scripts\start_bot.bat
+
+# 4. Manuel Başlatma
 venv\Scripts\activate
-
-# Linux/Mac
-source venv/bin/activate
-```
-
-### 3. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Configure Environment Variables
-
-Create a `.env` file in the root directory:
-
-```env
-# Discord Bot Token (from Discord Developer Portal)
-DISCORD_TOKEN=your_discord_bot_token_here
-
-# YouTube Data API Key (from Google Cloud Console)
-YOUTUBE_API_KEY=your_youtube_api_key_here
-
-# Groq API Key (from https://console.groq.com)
-GROQ_API_KEY=your_groq_api_key_here
-
-# Groq API Configuration
-GROQ_API_BASE=https://api.groq.com/openai/v1
-AI_MODEL=mixtral-8x7b-32768
-
-# Bot Command Prefix
-COMMAND_PREFIX=!
-```
-
-### 5. Run the Bot
-
-```bash
 python main.py
 ```
 
-## Getting API Keys
+> 💡 **İlk kez mi kullanıyorsun?** → [`docs/KURULUM.md`](docs/KURULUM.md) dosyasına göz at!
+> 
+> 🎨 **GUI Launcher Rehberi** → [`docs/GUI_LAUNCHER.md`](docs/GUI_LAUNCHER.md)
 
-### Discord Bot Token
-1. Go to [Discord Developer Portal](https://discord.com/developers/applications)
-2. Create a new application
-3. Go to the "Bot" section
-4. Click "Reset Token" and copy your token
-5. Enable these Privileged Gateway Intents:
-   - **Server Members Intent**
-   - **Message Content Intent**
-6. Invite the bot to your server with appropriate permissions
+---
 
-### YouTube Data API Key
-1. Go to [Google Cloud Console](https://console.cloud.google.com/)
-2. Create a new project
-3. Enable "YouTube Data API v3"
-4. Create credentials (API Key)
-5. Copy your API key
+## ✨ Özellikler
 
-### Groq API Key
-1. Go to [Groq Console](https://console.groq.com)
-2. Sign up or log in
-3. Navigate to API Keys section
-4. Create a new API key
-5. Copy your API key
+<table>
+<tr>
+<td width="50%">
 
-## Bot Commands
+### 🤖 AI Destekli Sohbet
 
-### Admin Commands (Administrator Only)
+- **Groq AI** ile hızlı ve akıllı cevaplar
+- Mention ile veya `!ask` komutuyla kullanım
+- Otomatik rate limiting (dakikada 5 istek)
+- Uzun cevaplar için otomatik bölme
+- Türkçe ve İngilizce destek
 
-| Command | Description | Usage |
-|---------|-------------|-------|
-| `!setwelcome` | Set the channel for welcome messages | `!setwelcome #welcome` |
-| `!setleave` | Set the channel for leave messages | `!setleave #goodbye` |
-| `!setyoutubechannel` | Set the channel for YouTube notifications | `!setyoutubechannel #videos` |
-| `!setyoutubeid` | Set the YouTube channel ID to monitor | `!setyoutubeid UC_x5XG1OV2P6uZZ5FSM9Ttw` |
-| `!config` | View current bot configuration | `!config` |
+</td>
+<td width="50%">
 
-### User Commands
+### 📺 YouTube Entegrasyonu
 
-| Command | Description | Usage |
-|---------|-------------|-------|
-| `!ask` | Ask the AI a question | `!ask What is Python?` |
-| `@BotName` | Mention the bot to ask a question | `@TectonicBrawler How do I code?` |
+- Yeni video yüklemelerini otomatik takip
+- Anlık Discord bildirimleri
+- Çift bildirim önleme sistemi
+- 10 dakikada bir kontrol
+- Özelleştirilebilir bildirim kanalı
 
-## Configuration
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-The bot stores its configuration in `config.json`. This file is automatically created and updated when you use admin commands.
+### 👋 Üye Karşılama Sistemi
 
-```json
-{
-  "welcome_channel_id": null,
-  "leave_channel_id": null,
-  "youtube_notification_channel_id": null,
-  "youtube_channel_id": null,
-  "last_video_id": null,
-  "check_interval_minutes": 10
-}
+- Yeni üyelere otomatik hoş geldin mesajı
+- Ayrılan üyeler için veda mesajı
+- Özelleştirilebilir mesaj formatları
+- Kanal bazlı yapılandırma
+
+</td>
+<td width="50%">
+
+### ⚙️ Güçlü Admin Araçları
+
+- Discord üzerinden tam kontrol
+- Sadece yöneticilere özel komutlar
+- Kalıcı yapılandırma depolama
+- Kolay kurulum ve yönetim
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🎮 Bot Komutları
+
+### 👑 Admin Komutları
+
+| Komut | Açıklama | Örnek |
+|-------|----------|-------|
+| `!setwelcome` | Hoş geldin kanalını ayarla | `!setwelcome #hoşgeldin` |
+| `!setleave` | Veda kanalını ayarla | `!setleave #görüşürüz` |
+| `!setyoutubechannel` | YouTube bildirim kanalı | `!setyoutubechannel #videolar` |
+| `!setyoutubeid` | İzlenecek YouTube kanalı | `!setyoutubeid UC_x5XG1OV2P6uZZ5FSM9Ttw` |
+| `!config` | Mevcut ayarları görüntüle | `!config` |
+
+### 💬 Kullanıcı Komutları
+
+| Komut | Açıklama | Örnek |
+|-------|----------|-------|
+| `!ask` | AI'ya soru sor | `!ask Python nedir?` |
+| `@BotName` | Mention ile soru sor | `@TectonicBrawler Nasıl kod yazarım?` |
+
+---
+
+## 📋 Gereksinimler
+
+- ✅ Python 3.10+
+- ✅ Discord Bot Token
+- ✅ YouTube Data API Key
+- ✅ Groq API Key
+
+## 📖 Dokümantasyon
+
+| Dosya | İçerik |
+|-------|--------|
+| 📘 [`docs/KURULUM.md`](docs/KURULUM.md) | Detaylı kurulum rehberi |
+| 🚀 [`HIZLI_BASLANGIÇ.md`](HIZLI_BASLANGIÇ.md) | 3 adımda başlangıç |
+| 🎨 [`docs/GUI_LAUNCHER.md`](docs/GUI_LAUNCHER.md) | Görsel arayüz kullanımı |
+| 📖 [`docs/NASIL_KULLANILIR.md`](docs/NASIL_KULLANILIR.md) | Kullanım kılavuzu |
+| 🏗️ [`PROJE_YAPISI.md`](PROJE_YAPISI.md) | Proje yapısı ve organizasyon |
+| 🔧 [`docs/BUILD_ADVANCED_EXE.md`](docs/BUILD_ADVANCED_EXE.md) | EXE oluşturma rehberi |
+
+---
+
+## 🔑 API Anahtarları Nasıl Alınır?
+
+<details>
+<summary><b>🔵 Discord Bot Token</b></summary>
+
+1. [Discord Developer Portal](https://discord.com/developers/applications) adresine git
+2. "New Application" butonuna tıkla
+3. "Bot" sekmesine geç
+4. "Reset Token" ile token'ı kopyala
+5. **Privileged Gateway Intents** aktif et:
+   - ✅ Server Members Intent
+   - ✅ Message Content Intent
+6. Bot'u sunucuna davet et (OAuth2 > URL Generator)
+
+</details>
+
+<details>
+<summary><b>🔴 YouTube Data API Key</b></summary>
+
+1. [Google Cloud Console](https://console.cloud.google.com/) aç
+2. Yeni proje oluştur
+3. "YouTube Data API v3" etkinleştir
+4. "Credentials" > "Create Credentials" > "API Key"
+5. API Key'i kopyala
+
+</details>
+
+<details>
+<summary><b>🟢 Groq API Key</b></summary>
+
+1. [Groq Console](https://console.groq.com) aç
+2. Kayıt ol veya giriş yap
+3. "API Keys" bölümüne git
+4. "Create API Key" tıkla
+5. API Key'i kopyala
+
+</details>
+
+---
+
+## 📁 Proje Yapısı
+
+```
+Tectonic-Brawler/
+├── 📄 main.py                  # Ana bot dosyası
+├── 📄 .env                     # API anahtarları
+├── 📄 config.json              # Bot yapılandırması
+├── 📂 cogs/                    # Bot özellikleri
+│   ├── ai.py                   # AI sohbet
+│   ├── events.py               # Üye olayları
+│   ├── youtube.py              # YouTube takip
+│   └── admin.py                # Admin komutları
+├── 📂 scripts/                 # Başlatıcılar
+│   ├── start_bot.bat           # ← Bunu kullan!
+│   └── advanced_launcher.py
+├── 📂 dist/                    # EXE dosyaları
+│   └── TectonicBrawlerLauncher.exe
+└── 📂 docs/                    # Dokümantasyon
 ```
 
-## Project Structure
+## 🔧 Sorun Giderme
 
-```
-Tectonic Brawler/
-├── main.py                 # Bot entry point
-├── config.json             # Persistent configuration
-├── requirements.txt        # Python dependencies
-├── .env                    # Environment variables (create this)
-├── .env.example            # Environment variables template
-├── cogs/
-│   ├── __init__.py
-│   ├── events.py          # Member join/leave events
-│   ├── youtube.py         # YouTube monitoring
-│   ├── ai.py              # AI question answering
-│   └── admin.py           # Admin commands
-└── utils/
-    ├── __init__.py
-    └── config_manager.py  # Configuration management
-```
+<details>
+<summary><b>Bot komutlara cevap vermiyor</b></summary>
 
-## Running 24/7
+- Discord Developer Portal'da **Message Content Intent** aktif mi kontrol et
+- Bot'un sunucuda gerekli izinlere sahip olduğundan emin ol
+- Komut prefix'inin `.env` dosyasıyla eşleştiğini kontrol et
 
-### Windows (using Task Scheduler)
-1. Create a batch file `start_bot.bat`:
-```batch
-@echo off
-cd "C:\Users\mesud\Documents\Kodland\Tectonic Brawler"
-call venv\Scripts\activate
-python main.py
-```
-2. Use Task Scheduler to run this batch file at startup
+</details>
 
-### Linux (using systemd)
-1. Create a service file `/etc/systemd/system/tectonic-bot.service`:
-```ini
-[Unit]
-Description=Tectonic Brawler Discord Bot
-After=network.target
+<details>
+<summary><b>AI özellikleri çalışmıyor</b></summary>
 
-[Service]
-Type=simple
-User=yourusername
-WorkingDirectory=/path/to/Tectonic Brawler
-ExecStart=/path/to/Tectonic Brawler/venv/bin/python main.py
-Restart=always
+- Groq API anahtarının geçerli olduğunu kontrol et
+- İnternet bağlantını test et
+- `bot.log` dosyasını incele
+- Rate limit aşılmış olabilir (dakikada 5 istek)
 
-[Install]
-WantedBy=multi-user.target
-```
-2. Enable and start the service:
-```bash
-sudo systemctl enable tectonic-bot
-sudo systemctl start tectonic-bot
-```
+</details>
 
-### Cloud Hosting Options
-- **Heroku**: Use a `Procfile` with `worker: python main.py`
-- **Railway**: Connect your GitHub repo and deploy
-- **DigitalOcean**: Use a droplet with systemd service
-- **AWS EC2**: Run on a free-tier instance with systemd
+<details>
+<summary><b>YouTube bildirimleri gelmiyor</b></summary>
 
-## Troubleshooting
+- YouTube API anahtarının geçerli olduğunu doğrula
+- YouTube kanal ID'sinin doğru olduğunu kontrol et
+- Bildirim kanalının ayarlandığından emin ol
+- Bot'un kanala mesaj gönderme izni var mı kontrol et
 
-### Bot doesn't respond to commands
-- Check that the bot has the correct permissions in your Discord server
-- Verify that **Message Content Intent** is enabled in Discord Developer Portal
-- Check that the command prefix matches your `.env` file
+</details>
 
-### Member join/leave events not working
-- Ensure **Server Members Intent** is enabled in Discord Developer Portal
-- Verify channels are set using `!setwelcome` and `!setleave`
-- Check bot has permission to send messages in those channels
+<details>
+<summary><b>Bot çöküyor veya bağlantı kesiliyor</b></summary>
 
-### YouTube notifications not working
-- Verify your YouTube API key is valid
-- Check the YouTube channel ID is correct (use `!setyoutubeid`)
-- Ensure notification channel is set with `!setyoutubechannel`
-- Check bot logs for API errors
+- `bot.log` dosyasını kontrol et
+- Tüm API anahtarlarının geçerli olduğunu doğrula
+- İnternet bağlantısının stabil olduğundan emin ol
+- Python versiyonunun 3.10+ olduğunu kontrol et
 
-### AI not responding
-- Verify your Groq API key is valid and has credits
-- Check that you're mentioning the bot correctly or using `!ask`
-- Review rate limiting (max 5 requests per minute per user)
+</details>
 
-### Bot crashes or disconnects
-- Check `bot.log` file for error messages
-- Verify all API keys are valid
-- Ensure stable internet connection
-- Check Python version is 3.10 or higher
+## 🌐 7/24 Çalıştırma
 
-## Logs
+### ☁️ Cloud Hosting Seçenekleri
 
-The bot creates a `bot.log` file with detailed logging information. Check this file for debugging issues.
+| Platform | Zorluk | Ücretsiz Plan | Önerilen |
+|----------|--------|---------------|----------|
+| **Railway** | ⭐ Kolay | ✅ Var | ✅ Evet |
+| **Heroku** | ⭐⭐ Orta | ⚠️ Sınırlı | ⚠️ Kısmen |
+| **DigitalOcean** | ⭐⭐⭐ Zor | ❌ Yok | ✅ Evet |
+| **AWS EC2** | ⭐⭐⭐ Zor | ✅ Var (1 yıl) | ⚠️ Kısmen |
 
-## Support
+### 💻 Windows Task Scheduler
 
-For issues or questions:
-1. Check the troubleshooting section above
-2. Review the `bot.log` file for errors
-3. Verify all API keys are valid and have proper permissions
+1. `scripts\start_bot.bat` dosyasını kullan
+2. Task Scheduler'ı aç
+3. "Create Basic Task" seç
+4. Başlangıçta çalışacak şekilde ayarla
 
-## Available Groq Models
+### 🐧 Linux systemd
 
-- `mixtral-8x7b-32768` (default) - Fast and balanced
-- `llama2-70b-4096` - Larger context window
-- `gemma-7b-it` - Google's Gemma model
+Detaylı talimatlar için [`docs/KURULUM.md`](docs/KURULUM.md) dosyasına bakın.
 
-Change the model in your `.env` file by updating the `AI_MODEL` variable.
+---
 
-## License
+## 🤝 Katkıda Bulunma
 
-This project is provided as-is for educational and personal use.
+Katkılarınızı bekliyoruz! Pull request göndermekten çekinmeyin.
+
+1. Fork yapın
+2. Feature branch oluşturun (`git checkout -b feature/AmazingFeature`)
+3. Commit yapın (`git commit -m 'Add some AmazingFeature'`)
+4. Push edin (`git push origin feature/AmazingFeature`)
+5. Pull Request açın
+
+---
+
+## 📊 İstatistikler
+
+- 🤖 **AI Model:** Groq (llama-3.3-70b-versatile)
+- ⚡ **Yanıt Süresi:** ~1-2 saniye
+- 📺 **YouTube Kontrol:** Her 10 dakika
+- 🔒 **Rate Limit:** Kullanıcı başına dakikada 5 istek
+- 🐍 **Python:** 3.10+
+- 📦 **Bağımlılıklar:** discord.py, aiohttp, python-dotenv
+
+---
+
+## 💡 İpuçları
+
+- 🔐 `.env` dosyanızı **asla** paylaşmayın
+- 📝 `bot.log` dosyasını düzenli kontrol edin
+- 🔄 Bot'u güncel tutun
+- 💾 Düzenli yedekleme yapın
+- 🌐 Stabil internet bağlantısı kullanın
+
+---
+
+## 📜 Lisans
+
+Bu proje eğitim ve kişisel kullanım için sağlanmıştır.
+
+---
+
+<div align="center">
+
+### 🌟 Projeyi Beğendin mi?
+
+⭐ **Star** vermeyi unutma!
+
+**Yapımcı:** [Kodland](https://kodland.com) | **Bot:** Tectonic Brawler
+
+*Discord sunucunuzu bir üst seviyeye taşıyın!* 🚀
+
+</div>

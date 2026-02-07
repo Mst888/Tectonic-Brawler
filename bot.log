@@ -1,42 +1,742 @@
-2026-01-13 13:16:00,142 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
-2026-01-13 13:16:00,142 - discord.client - INFO - logging in using static token
-2026-01-13 13:16:01,013 - TectonicBrawler - INFO - Loaded cog: events
-2026-01-13 13:16:01,019 - TectonicBrawler - INFO - Loaded cog: youtube
-2026-01-13 13:16:01,023 - TectonicBrawler - INFO - Loaded cog: ai
-2026-01-13 13:16:01,026 - TectonicBrawler - INFO - Loaded cog: admin
-2026-01-13 13:16:02,005 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 4999e74de0e39ba74012795084b19d0a).
-2026-01-13 13:16:04,011 - TectonicBrawler - INFO - MstMecha#0334 has connected to Discord!
-2026-01-13 13:16:04,012 - TectonicBrawler - INFO - Bot is in 2 guilds
-2026-01-13 13:16:35,334 - TectonicBrawler - INFO - Welcome channel set to 1460574259503042591 by akillimst
-2026-01-13 13:16:49,700 - TectonicBrawler - INFO - Leave channel set to 1460574259503042591 by akillimst
-2026-01-13 13:17:27,355 - TectonicBrawler - INFO - YouTube notification channel set to 1460575036078559424 by akillimst
-2026-01-13 13:17:56,707 - TectonicBrawler - INFO - YouTube channel ID set to @MstMsr8 by akillimst
-2026-01-13 13:26:04,683 - TectonicBrawler - ERROR - YouTube API error: 400
-2026-01-13 13:36:04,701 - TectonicBrawler - ERROR - YouTube API error: 400
-2026-01-13 13:43:11,307 - TectonicBrawler - INFO - YouTube channel ID set to UC@MstMsr8 by akillimst
-2026-01-13 13:44:27,626 - TectonicBrawler - INFO - YouTube channel ID set to UC-fytLP57aA6J5b5m6_Lyvg by akillimst
-2026-01-13 13:45:49,279 - TectonicBrawler - ERROR - Groq API error 400: {"error":{"message":"The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+2026-02-05 20:08:21,960 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2026-02-05 20:08:21,960 - discord.client - INFO - logging in using static token
+2026-02-05 20:08:23,677 - TectonicBrawler - INFO - Loaded cog: events
+2026-02-05 20:08:23,688 - TectonicBrawler - INFO - Loaded cog: youtube
+2026-02-05 20:08:23,695 - TectonicBrawler - INFO - Loaded cog: ai
+2026-02-05 20:08:23,698 - TectonicBrawler - INFO - Loaded cog: admin
+2026-02-05 20:08:24,280 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 3837c60c1dd246ba260a5beba21544ab).
+2026-02-05 20:08:26,480 - TectonicBrawler - INFO - MstMecha#0334 has connected to Discord!
+2026-02-05 20:08:26,481 - TectonicBrawler - INFO - Bot is in 2 guilds
+2026-02-05 20:08:27,643 - TectonicBrawler - INFO - New video detected: Glowbert Nasýl bir þey?|Brawl Stars Türkçe
+2026-02-05 20:08:59,505 - TectonicBrawler - WARNING - Connection error (attempt 1/3): Cannot connect to host api.groq.com:443 ssl:default [[SSL: INVALID_SESSION_ID] invalid session id (_ssl.c:1077)]
+2026-02-05 20:09:00,586 - TectonicBrawler - WARNING - Connection error (attempt 2/3): Cannot connect to host api.groq.com:443 ssl:default [[SSL: INVALID_SESSION_ID] invalid session id (_ssl.c:1077)]
+2026-02-05 20:09:02,648 - TectonicBrawler - WARNING - Connection error (attempt 3/3): Cannot connect to host api.groq.com:443 ssl:default [[SSL: INVALID_SESSION_ID] invalid session id (_ssl.c:1077)]
+2026-02-05 20:09:02,649 - TectonicBrawler - ERROR - Failed to connect to Groq API after 3 attempts
+2026-02-05 20:10:53,922 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2026-02-05 20:10:53,923 - discord.client - INFO - logging in using static token
+2026-02-05 20:10:54,681 - TectonicBrawler - INFO - Loaded cog: events
+2026-02-05 20:10:54,690 - TectonicBrawler - INFO - Loaded cog: youtube
+2026-02-05 20:10:54,692 - TectonicBrawler - INFO - Loaded cog: ai
+2026-02-05 20:10:54,694 - TectonicBrawler - INFO - Loaded cog: admin
+2026-02-05 20:10:55,436 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 0b35738f79dbb7c71a95777afa2fb8d4).
+2026-02-05 20:10:57,440 - TectonicBrawler - INFO - MstMecha#0334 has connected to Discord!
+2026-02-05 20:10:57,440 - TectonicBrawler - INFO - Bot is in 2 guilds
+2026-02-05 20:11:36,972 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 0b35738f79dbb7c71a95777afa2fb8d4.
+2026-02-05 20:25:22,130 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2026-02-05 20:25:22,131 - discord.client - INFO - logging in using static token
+2026-02-05 20:25:22,943 - TectonicBrawler - INFO - Loaded cog: events
+2026-02-05 20:25:22,946 - TectonicBrawler - INFO - Loaded cog: youtube
+2026-02-05 20:25:22,951 - TectonicBrawler - INFO - Loaded cog: ai
+2026-02-05 20:25:22,953 - TectonicBrawler - INFO - Loaded cog: admin
+2026-02-05 20:25:23,676 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 0fb8ca546802c2131151579d50410e5e).
+2026-02-05 20:25:25,685 - TectonicBrawler - INFO - MstMecha#0334 has connected to Discord!
+2026-02-05 20:25:25,686 - TectonicBrawler - INFO - Bot is in 2 guilds
+2026-02-05 20:25:39,811 - TectonicBrawler - WARNING - Connection error (attempt 1/3): Cannot connect to host api.groq.com:443 ssl:default [[SSL: INVALID_SESSION_ID] invalid session id (_ssl.c:1077)]
+2026-02-05 20:25:40,818 - TectonicBrawler - ERROR - Unexpected error getting AI response: Session is closed
+Traceback (most recent call last):
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\cogs\ai.py", line 133, in get_ai_response
+    async with session.post(
+               ~~~~~~~~~~~~^
+        f'{self.api_base}/chat/completions',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        headers=headers,
+        ^^^^^^^^^^^^^^^^
+        json=payload
+        ^^^^^^^^^^^^
+    ) as response:
+    ^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 1510, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 529, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+2026-02-05 20:25:41,247 - TectonicBrawler - ERROR - AI response failed for question: napýyon
+2026-02-05 20:34:06,236 - discord.client - ERROR - Attempting a reconnect in 1.51s
+Traceback (most recent call last):
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1562, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1178, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1209, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Python314\Lib\asyncio\base_events.py", line 936, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "C:\Python314\Lib\socket.py", line 983, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
 
-2026-01-13 13:46:05,001 - TectonicBrawler - INFO - New video detected: EFSANEVÝYE DOÐRU ADIMLAR| Brawl Stars (part 5)
-2026-01-13 13:47:07,949 - TectonicBrawler - ERROR - Groq API error 400: {"error":{"message":"The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+The above exception was the direct cause of the following exception:
 
-2026-01-13 13:48:56,424 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
-2026-01-13 13:48:56,424 - discord.client - INFO - logging in using static token
-2026-01-13 13:48:57,252 - TectonicBrawler - INFO - Loaded cog: events
-2026-01-13 13:48:57,253 - TectonicBrawler - INFO - Loaded cog: youtube
-2026-01-13 13:48:57,255 - TectonicBrawler - INFO - Loaded cog: ai
-2026-01-13 13:48:57,256 - TectonicBrawler - INFO - Loaded cog: admin
-2026-01-13 13:48:58,016 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 385b17d3ffba48c588416ecb2e294395).
-2026-01-13 13:49:00,050 - TectonicBrawler - INFO - MstMecha#0334 has connected to Discord!
-2026-01-13 13:49:00,051 - TectonicBrawler - INFO - Bot is in 2 guilds
-2026-01-13 13:49:17,030 - TectonicBrawler - ERROR - Groq API error 404: {"error":{"message":"The model `ai_model=llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+Traceback (most recent call last):
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\client.py", line 724, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\gateway.py", line 383, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\http.py", line 566, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 1076, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 779, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 734, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 672, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1239, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1568, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2026-02-05 20:34:07,756 - discord.client - ERROR - Attempting a reconnect in 1.60s
+Traceback (most recent call last):
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1562, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1178, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1209, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Python314\Lib\asyncio\base_events.py", line 936, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "C:\Python314\Lib\socket.py", line 983, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
 
-2026-01-13 13:50:50,275 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
-2026-01-13 13:50:50,276 - discord.client - INFO - logging in using static token
-2026-01-13 13:50:51,229 - TectonicBrawler - INFO - Loaded cog: events
-2026-01-13 13:50:51,230 - TectonicBrawler - INFO - Loaded cog: youtube
-2026-01-13 13:50:51,231 - TectonicBrawler - INFO - Loaded cog: ai
-2026-01-13 13:50:51,232 - TectonicBrawler - INFO - Loaded cog: admin
-2026-01-13 13:50:51,708 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 7de94b74d6b89b531d4c12f8d47a5b6c).
-2026-01-13 13:50:53,741 - TectonicBrawler - INFO - MstMecha#0334 has connected to Discord!
-2026-01-13 13:50:53,742 - TectonicBrawler - INFO - Bot is in 2 guilds
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\client.py", line 724, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\gateway.py", line 383, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\http.py", line 566, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 1076, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 779, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 734, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 672, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1239, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1568, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2026-02-05 20:34:09,372 - discord.client - ERROR - Attempting a reconnect in 1.30s
+Traceback (most recent call last):
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1562, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1178, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1209, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Python314\Lib\asyncio\base_events.py", line 936, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "C:\Python314\Lib\socket.py", line 983, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\client.py", line 724, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\gateway.py", line 383, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\http.py", line 566, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 1076, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 779, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 734, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 672, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1239, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1568, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2026-02-05 20:34:10,681 - discord.client - ERROR - Attempting a reconnect in 15.44s
+Traceback (most recent call last):
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1562, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1178, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1209, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Python314\Lib\asyncio\base_events.py", line 936, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "C:\Python314\Lib\socket.py", line 983, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\client.py", line 724, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\gateway.py", line 383, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\http.py", line 566, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 1076, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 779, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 734, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 672, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1239, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1568, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2026-02-05 20:34:26,135 - discord.client - ERROR - Attempting a reconnect in 16.93s
+Traceback (most recent call last):
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1562, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1178, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1209, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Python314\Lib\asyncio\base_events.py", line 936, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "C:\Python314\Lib\socket.py", line 983, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\client.py", line 724, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\gateway.py", line 383, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\http.py", line 566, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 1076, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 779, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 734, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 672, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1239, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1568, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2026-02-05 20:34:43,090 - discord.client - ERROR - Attempting a reconnect in 14.26s
+Traceback (most recent call last):
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1562, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1178, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1209, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Python314\Lib\asyncio\base_events.py", line 936, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "C:\Python314\Lib\socket.py", line 983, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\client.py", line 724, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\gateway.py", line 383, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\http.py", line 566, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 1076, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 779, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 734, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 672, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1239, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1568, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2026-02-05 20:34:57,373 - discord.client - ERROR - Attempting a reconnect in 56.69s
+Traceback (most recent call last):
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1562, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1178, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1209, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Python314\Lib\asyncio\base_events.py", line 936, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "C:\Python314\Lib\socket.py", line 983, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\client.py", line 724, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\gateway.py", line 383, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\http.py", line 566, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 1076, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 779, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 734, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 672, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1239, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1568, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2026-02-05 20:35:54,077 - discord.client - ERROR - Attempting a reconnect in 64.50s
+Traceback (most recent call last):
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1562, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1178, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1209, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Python314\Lib\asyncio\base_events.py", line 936, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "C:\Python314\Lib\socket.py", line 983, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\client.py", line 724, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\gateway.py", line 383, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\http.py", line 566, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 1076, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 779, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 734, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 672, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1239, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1568, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2026-02-05 20:36:58,602 - discord.client - ERROR - Attempting a reconnect in 283.09s
+Traceback (most recent call last):
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1562, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1178, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1209, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Python314\Lib\asyncio\base_events.py", line 936, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "C:\Python314\Lib\socket.py", line 983, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\client.py", line 724, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\gateway.py", line 383, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\discord\http.py", line 566, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 1076, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 779, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\client.py", line 734, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 672, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1239, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesud\Documents\Kodland\Tectonic-Brawler\venv\Lib\site-packages\aiohttp\connector.py", line 1568, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2026-02-05 20:41:05,529 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2026-02-05 20:41:05,530 - discord.client - INFO - logging in using static token
+2026-02-05 20:41:07,178 - TectonicBrawler - INFO - Loaded cog: events
+2026-02-05 20:41:07,184 - TectonicBrawler - INFO - Loaded cog: youtube
+2026-02-05 20:41:07,188 - TectonicBrawler - INFO - Loaded cog: ai
+2026-02-05 20:41:07,189 - TectonicBrawler - INFO - Loaded cog: admin
+2026-02-05 20:41:08,798 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: c09d08e43b327b07c37a6c396eb0ab8e).
+2026-02-05 20:41:10,824 - TectonicBrawler - INFO - MstMecha#0334 has connected to Discord!
+2026-02-05 20:41:10,824 - TectonicBrawler - INFO - Bot is in 2 guilds
+2026-02-05 20:41:43,181 - discord.gateway - INFO - Shard ID None session has been invalidated.
+2026-02-05 20:41:49,120 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 7ffd32e49d84e0a2d851063ad13d4d27).
+2026-02-05 20:41:51,140 - TectonicBrawler - INFO - MstMecha#0334 has connected to Discord!
+2026-02-05 20:41:51,141 - TectonicBrawler - INFO - Bot is in 2 guilds
+2026-02-05 20:43:18,405 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2026-02-05 20:43:18,406 - discord.client - INFO - logging in using static token
+2026-02-05 20:43:19,221 - TectonicBrawler - INFO - Loaded cog: events
+2026-02-05 20:43:19,223 - TectonicBrawler - INFO - Loaded cog: youtube
+2026-02-05 20:43:19,225 - TectonicBrawler - INFO - Loaded cog: ai
+2026-02-05 20:43:19,226 - TectonicBrawler - INFO - Loaded cog: admin
+2026-02-05 20:43:19,815 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: a085ab264d953f58c69854d2230c200c).
+2026-02-05 20:43:21,822 - TectonicBrawler - INFO - MstMecha#0334 has connected to Discord!
+2026-02-05 20:43:21,823 - TectonicBrawler - INFO - Bot is in 2 guilds
+2026-02-05 20:47:22,451 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2026-02-05 20:47:22,451 - discord.client - INFO - logging in using static token
+2026-02-05 20:47:23,183 - TectonicBrawler - INFO - Loaded cog: events
+2026-02-05 20:47:23,185 - TectonicBrawler - INFO - Loaded cog: youtube
+2026-02-05 20:47:23,186 - TectonicBrawler - INFO - Loaded cog: ai
+2026-02-05 20:47:23,187 - TectonicBrawler - INFO - Loaded cog: admin
+2026-02-05 20:47:23,968 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 20ff8ac32c0d5443b348e0f41592e5ad).
+2026-02-05 20:47:25,980 - TectonicBrawler - INFO - MstMecha#0334 has connected to Discord!
+2026-02-05 20:47:25,981 - TectonicBrawler - INFO - Bot is in 2 guilds
+2026-02-05 20:50:39,240 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2026-02-05 20:50:39,240 - discord.client - INFO - logging in using static token
+2026-02-05 20:50:40,481 - TectonicBrawler - INFO - Loaded cog: events
+2026-02-05 20:50:40,483 - TectonicBrawler - INFO - Loaded cog: youtube
+2026-02-05 20:50:40,485 - TectonicBrawler - INFO - Loaded cog: ai
+2026-02-05 20:50:40,486 - TectonicBrawler - INFO - Loaded cog: admin
+2026-02-05 20:50:41,192 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 63c87ebd3ad67449a1dd98200a18d1cf).
+2026-02-05 20:50:43,206 - TectonicBrawler - INFO - MstMecha#0334 has connected to Discord!
+2026-02-05 20:50:43,207 - TectonicBrawler - INFO - Bot is in 2 guilds
+2026-02-05 21:20:36,007 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2026-02-05 21:20:36,008 - discord.client - INFO - logging in using static token
+2026-02-05 21:20:36,930 - TectonicBrawler - INFO - Loaded cog: events
+2026-02-05 21:20:36,938 - TectonicBrawler - INFO - Loaded cog: youtube
+2026-02-05 21:20:36,941 - TectonicBrawler - INFO - Loaded cog: ai
+2026-02-05 21:20:36,947 - TectonicBrawler - INFO - Loaded cog: admin
+2026-02-05 21:20:37,690 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 19f71b03263c2a26a2e02c02765fadca).
+2026-02-05 21:20:39,732 - TectonicBrawler - INFO - MstMecha#0334 has connected to Discord!
+2026-02-05 21:20:39,733 - TectonicBrawler - INFO - Bot is in 2 guilds
